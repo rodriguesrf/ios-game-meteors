@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CF1E66416D961BB00A6E36A /* meteor.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CF1E66216D961BB00A6E36A /* meteor.png */; };
+		2CF1E66516D961BB00A6E36A /* meteor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CF1E66316D961BB00A6E36A /* meteor@2x.png */; };
+		2CF1E66E16D9624700A6E36A /* UIView+i7Rotate360.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF1E66D16D9624700A6E36A /* UIView+i7Rotate360.m */; };
+		2CF1E66F16D962EE00A6E36A /* Meteors.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF1E66816D961FB00A6E36A /* Meteors.m */; };
+		2CF1E67016D962EE00A6E36A /* ShootingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF1E66A16D961FB00A6E36A /* ShootingView.m */; };
+		2CF1E67316D9639900A6E36A /* rocket.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CF1E67116D9639900A6E36A /* rocket.png */; };
+		2CF1E67416D9639900A6E36A /* rocket@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CF1E67216D9639900A6E36A /* rocket@2x.png */; };
+		2CF1E67716D96A0B00A6E36A /* BoomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF1E67616D96A0B00A6E36A /* BoomView.m */; };
+		2CF1E69C16D96AEB00A6E36A /* boom.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CF1E69A16D96AEB00A6E36A /* boom.png */; };
+		2CF1E69D16D96AEB00A6E36A /* boom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CF1E69B16D96AEB00A6E36A /* boom@2x.png */; };
+		2CF1E6A016D96C0100A6E36A /* puff.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CF1E69E16D96C0100A6E36A /* puff.png */; };
+		2CF1E6A116D96C0100A6E36A /* puff@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CF1E69F16D96C0100A6E36A /* puff@2x.png */; };
+		2CF1E6A416D983E100A6E36A /* IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF1E6A316D983E100A6E36A /* IntroViewController.m */; };
+		2CF1E6A716D9986700A6E36A /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CF1E6A516D9986700A6E36A /* bg.png */; };
+		2CF1E6A816D9986700A6E36A /* bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CF1E6A616D9986700A6E36A /* bg@2x.png */; };
+		2CF1E6AB16D9C2F200A6E36A /* GameOverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF1E6AA16D9C2F200A6E36A /* GameOverViewController.m */; };
+		945D401616D2F11100FDD1FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 945D401516D2F11100FDD1FC /* UIKit.framework */; };
+		945D401816D2F11100FDD1FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 945D401716D2F11100FDD1FC /* Foundation.framework */; };
+		945D401A16D2F11100FDD1FC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 945D401916D2F11100FDD1FC /* CoreGraphics.framework */; };
+		945D402016D2F11200FDD1FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 945D401E16D2F11200FDD1FC /* InfoPlist.strings */; };
+		945D402216D2F11200FDD1FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 945D402116D2F11200FDD1FC /* main.m */; };
+		945D402616D2F11200FDD1FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 945D402516D2F11200FDD1FC /* AppDelegate.m */; };
+		945D402816D2F11200FDD1FC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 945D402716D2F11200FDD1FC /* Default.png */; };
+		945D402A16D2F11200FDD1FC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 945D402916D2F11200FDD1FC /* Default@2x.png */; };
+		945D402C16D2F11200FDD1FC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 945D402B16D2F11200FDD1FC /* Default-568h@2x.png */; };
+		945D402F16D2F11200FDD1FC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 945D402D16D2F11200FDD1FC /* MainStoryboard.storyboard */; };
+		945D403216D2F11200FDD1FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 945D403116D2F11200FDD1FC /* ViewController.m */; };
+		94F59F4416D5CBDE005490EB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94F59F4316D5CBDE005490EB /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2CF1E66216D961BB00A6E36A /* meteor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = meteor.png; path = Images/meteor.png; sourceTree = "<group>"; };
+		2CF1E66316D961BB00A6E36A /* meteor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "meteor@2x.png"; path = "Images/meteor@2x.png"; sourceTree = "<group>"; };
+		2CF1E66716D961FB00A6E36A /* Meteors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Meteors.h; path = Meteors/Model/Meteors.h; sourceTree = "<group>"; };
+		2CF1E66816D961FB00A6E36A /* Meteors.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Meteors.m; path = Meteors/Model/Meteors.m; sourceTree = "<group>"; };
+		2CF1E66916D961FB00A6E36A /* ShootingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ShootingView.h; path = Meteors/Model/ShootingView.h; sourceTree = "<group>"; };
+		2CF1E66A16D961FB00A6E36A /* ShootingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ShootingView.m; path = Meteors/Model/ShootingView.m; sourceTree = "<group>"; };
+		2CF1E66C16D9624700A6E36A /* UIView+i7Rotate360.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+i7Rotate360.h"; path = "UIView-i7Rotate360/UIView+i7Rotate360.h"; sourceTree = SOURCE_ROOT; };
+		2CF1E66D16D9624700A6E36A /* UIView+i7Rotate360.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+i7Rotate360.m"; path = "UIView-i7Rotate360/UIView+i7Rotate360.m"; sourceTree = SOURCE_ROOT; };
+		2CF1E67116D9639900A6E36A /* rocket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rocket.png; path = Images/rocket.png; sourceTree = "<group>"; };
+		2CF1E67216D9639900A6E36A /* rocket@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "rocket@2x.png"; path = "Images/rocket@2x.png"; sourceTree = "<group>"; };
+		2CF1E67516D96A0B00A6E36A /* BoomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BoomView.h; path = Meteors/Model/BoomView.h; sourceTree = "<group>"; };
+		2CF1E67616D96A0B00A6E36A /* BoomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BoomView.m; path = Meteors/Model/BoomView.m; sourceTree = "<group>"; };
+		2CF1E69A16D96AEB00A6E36A /* boom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = boom.png; path = Images/boom.png; sourceTree = "<group>"; };
+		2CF1E69B16D96AEB00A6E36A /* boom@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "boom@2x.png"; path = "Images/boom@2x.png"; sourceTree = "<group>"; };
+		2CF1E69E16D96C0100A6E36A /* puff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = puff.png; path = Images/puff.png; sourceTree = "<group>"; };
+		2CF1E69F16D96C0100A6E36A /* puff@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "puff@2x.png"; path = "Images/puff@2x.png"; sourceTree = "<group>"; };
+		2CF1E6A216D983E100A6E36A /* IntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroViewController.h; sourceTree = "<group>"; };
+		2CF1E6A316D983E100A6E36A /* IntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroViewController.m; sourceTree = "<group>"; };
+		2CF1E6A516D9986700A6E36A /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg.png; path = Images/bg.png; sourceTree = "<group>"; };
+		2CF1E6A616D9986700A6E36A /* bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bg@2x.png"; path = "Images/bg@2x.png"; sourceTree = "<group>"; };
+		2CF1E6A916D9C2F200A6E36A /* GameOverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverViewController.h; sourceTree = "<group>"; };
+		2CF1E6AA16D9C2F200A6E36A /* GameOverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOverViewController.m; sourceTree = "<group>"; };
+		945D401116D2F11100FDD1FC /* Meteors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meteors.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		945D401516D2F11100FDD1FC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		945D401716D2F11100FDD1FC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		945D401916D2F11100FDD1FC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		945D401D16D2F11200FDD1FC /* Meteors-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Meteors-Info.plist"; sourceTree = "<group>"; };
+		945D401F16D2F11200FDD1FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		945D402116D2F11200FDD1FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		945D402316D2F11200FDD1FC /* Meteors-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Meteors-Prefix.pch"; sourceTree = "<group>"; };
+		945D402416D2F11200FDD1FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		945D402516D2F11200FDD1FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		945D402716D2F11200FDD1FC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		945D402916D2F11200FDD1FC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		945D402B16D2F11200FDD1FC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		945D402E16D2F11200FDD1FC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		945D403016D2F11200FDD1FC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		945D403116D2F11200FDD1FC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		94F59F4316D5CBDE005490EB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		945D400E16D2F11100FDD1FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94F59F4416D5CBDE005490EB /* QuartzCore.framework in Frameworks */,
+				945D401616D2F11100FDD1FC /* UIKit.framework in Frameworks */,
+				945D401816D2F11100FDD1FC /* Foundation.framework in Frameworks */,
+				945D401A16D2F11100FDD1FC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CF1E66616D961C000A6E36A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2CF1E6A516D9986700A6E36A /* bg.png */,
+				2CF1E6A616D9986700A6E36A /* bg@2x.png */,
+				2CF1E69E16D96C0100A6E36A /* puff.png */,
+				2CF1E69F16D96C0100A6E36A /* puff@2x.png */,
+				2CF1E69A16D96AEB00A6E36A /* boom.png */,
+				2CF1E69B16D96AEB00A6E36A /* boom@2x.png */,
+				2CF1E67116D9639900A6E36A /* rocket.png */,
+				2CF1E67216D9639900A6E36A /* rocket@2x.png */,
+				2CF1E66216D961BB00A6E36A /* meteor.png */,
+				2CF1E66316D961BB00A6E36A /* meteor@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		2CF1E66B16D9622600A6E36A /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				2CF1E66C16D9624700A6E36A /* UIView+i7Rotate360.h */,
+				2CF1E66D16D9624700A6E36A /* UIView+i7Rotate360.m */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		945D400616D2F11000FDD1FC = {
+			isa = PBXGroup;
+			children = (
+				2CF1E66616D961C000A6E36A /* Images */,
+				945D401B16D2F11100FDD1FC /* Meteors */,
+				945D401416D2F11100FDD1FC /* Frameworks */,
+				945D401216D2F11100FDD1FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		945D401216D2F11100FDD1FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				945D401116D2F11100FDD1FC /* Meteors.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		945D401416D2F11100FDD1FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94F59F4316D5CBDE005490EB /* QuartzCore.framework */,
+				945D401516D2F11100FDD1FC /* UIKit.framework */,
+				945D401716D2F11100FDD1FC /* Foundation.framework */,
+				945D401916D2F11100FDD1FC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		945D401B16D2F11100FDD1FC /* Meteors */ = {
+			isa = PBXGroup;
+			children = (
+				2CF1E66B16D9622600A6E36A /* Libraries */,
+				945D403816D2F12F00FDD1FC /* Model */,
+				945D402416D2F11200FDD1FC /* AppDelegate.h */,
+				945D402516D2F11200FDD1FC /* AppDelegate.m */,
+				945D402D16D2F11200FDD1FC /* MainStoryboard.storyboard */,
+				2CF1E6A916D9C2F200A6E36A /* GameOverViewController.h */,
+				2CF1E6AA16D9C2F200A6E36A /* GameOverViewController.m */,
+				2CF1E6A216D983E100A6E36A /* IntroViewController.h */,
+				2CF1E6A316D983E100A6E36A /* IntroViewController.m */,
+				945D403016D2F11200FDD1FC /* ViewController.h */,
+				945D403116D2F11200FDD1FC /* ViewController.m */,
+				945D401C16D2F11200FDD1FC /* Supporting Files */,
+			);
+			path = Meteors;
+			sourceTree = "<group>";
+		};
+		945D401C16D2F11200FDD1FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				945D401D16D2F11200FDD1FC /* Meteors-Info.plist */,
+				945D401E16D2F11200FDD1FC /* InfoPlist.strings */,
+				945D402116D2F11200FDD1FC /* main.m */,
+				945D402316D2F11200FDD1FC /* Meteors-Prefix.pch */,
+				945D402716D2F11200FDD1FC /* Default.png */,
+				945D402916D2F11200FDD1FC /* Default@2x.png */,
+				945D402B16D2F11200FDD1FC /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		945D403816D2F12F00FDD1FC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2CF1E66716D961FB00A6E36A /* Meteors.h */,
+				2CF1E66816D961FB00A6E36A /* Meteors.m */,
+				2CF1E66916D961FB00A6E36A /* ShootingView.h */,
+				2CF1E66A16D961FB00A6E36A /* ShootingView.m */,
+				2CF1E67516D96A0B00A6E36A /* BoomView.h */,
+				2CF1E67616D96A0B00A6E36A /* BoomView.m */,
+			);
+			name = Model;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		945D401016D2F11100FDD1FC /* Meteors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 945D403516D2F11200FDD1FC /* Build configuration list for PBXNativeTarget "Meteors" */;
+			buildPhases = (
+				945D400D16D2F11100FDD1FC /* Sources */,
+				945D400E16D2F11100FDD1FC /* Frameworks */,
+				945D400F16D2F11100FDD1FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Meteors;
+			productName = Meteors;
+			productReference = 945D401116D2F11100FDD1FC /* Meteors.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		945D400816D2F11000FDD1FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = renata;
+			};
+			buildConfigurationList = 945D400B16D2F11000FDD1FC /* Build configuration list for PBXProject "Meteors" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 945D400616D2F11000FDD1FC;
+			productRefGroup = 945D401216D2F11100FDD1FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				945D401016D2F11100FDD1FC /* Meteors */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		945D400F16D2F11100FDD1FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				945D402016D2F11200FDD1FC /* InfoPlist.strings in Resources */,
+				945D402816D2F11200FDD1FC /* Default.png in Resources */,
+				945D402A16D2F11200FDD1FC /* Default@2x.png in Resources */,
+				945D402C16D2F11200FDD1FC /* Default-568h@2x.png in Resources */,
+				945D402F16D2F11200FDD1FC /* MainStoryboard.storyboard in Resources */,
+				2CF1E66416D961BB00A6E36A /* meteor.png in Resources */,
+				2CF1E66516D961BB00A6E36A /* meteor@2x.png in Resources */,
+				2CF1E67316D9639900A6E36A /* rocket.png in Resources */,
+				2CF1E67416D9639900A6E36A /* rocket@2x.png in Resources */,
+				2CF1E69C16D96AEB00A6E36A /* boom.png in Resources */,
+				2CF1E69D16D96AEB00A6E36A /* boom@2x.png in Resources */,
+				2CF1E6A016D96C0100A6E36A /* puff.png in Resources */,
+				2CF1E6A116D96C0100A6E36A /* puff@2x.png in Resources */,
+				2CF1E6A716D9986700A6E36A /* bg.png in Resources */,
+				2CF1E6A816D9986700A6E36A /* bg@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		945D400D16D2F11100FDD1FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CF1E66F16D962EE00A6E36A /* Meteors.m in Sources */,
+				2CF1E67016D962EE00A6E36A /* ShootingView.m in Sources */,
+				945D402216D2F11200FDD1FC /* main.m in Sources */,
+				945D402616D2F11200FDD1FC /* AppDelegate.m in Sources */,
+				945D403216D2F11200FDD1FC /* ViewController.m in Sources */,
+				2CF1E66E16D9624700A6E36A /* UIView+i7Rotate360.m in Sources */,
+				2CF1E67716D96A0B00A6E36A /* BoomView.m in Sources */,
+				2CF1E6A416D983E100A6E36A /* IntroViewController.m in Sources */,
+				2CF1E6AB16D9C2F200A6E36A /* GameOverViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		945D401E16D2F11200FDD1FC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				945D401F16D2F11200FDD1FC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		945D402D16D2F11200FDD1FC /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				945D402E16D2F11200FDD1FC /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		945D403316D2F11200FDD1FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		945D403416D2F11200FDD1FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		945D403616D2F11200FDD1FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Meteors/Meteors-Prefix.pch";
+				INFOPLIST_FILE = "Meteors/Meteors-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		945D403716D2F11200FDD1FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Meteors/Meteors-Prefix.pch";
+				INFOPLIST_FILE = "Meteors/Meteors-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		945D400B16D2F11000FDD1FC /* Build configuration list for PBXProject "Meteors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				945D403316D2F11200FDD1FC /* Debug */,
+				945D403416D2F11200FDD1FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		945D403516D2F11200FDD1FC /* Build configuration list for PBXNativeTarget "Meteors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				945D403616D2F11200FDD1FC /* Debug */,
+				945D403716D2F11200FDD1FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 945D400816D2F11000FDD1FC /* Project object */;
+}
