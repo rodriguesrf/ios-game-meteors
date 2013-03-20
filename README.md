@@ -5,8 +5,8 @@ This is a work in progress of my first iOS Game.
 
 # Installation 
 
-. Clone repository
-. Download submodules
+1. Clone repository
+2. Download submodules
 
 ```
 git submodule init
