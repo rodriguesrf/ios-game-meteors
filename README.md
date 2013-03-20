@@ -1,4 +1,4 @@
-ios-game-meteors
-================
+Meteors iOS Game (Project - iOS Course, NYU)
+=====================
 
-Meteor iOS Game
+This is a work in progress of my first iOS Game.
